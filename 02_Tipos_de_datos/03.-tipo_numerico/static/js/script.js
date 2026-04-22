@@ -49,3 +49,16 @@ console.log("el sueldo semanal es: " + sueldo);
 //7.- redondeo de numeros
 console.log("redondeando 4.6: " + Math.round(4.6)); //5
 console.log("redondeando 4.3: " + Math.floor(4.6)); //4
+
+//8.- numeros aleatorios
+let numeroAleatorio = Math.random(); // numero entre 0 y 1
+let dado = Math.floor(Math.random() * 6) + 1; // numero entre 1 y 6
+console.log(`tirar dados: ${dado}`);
+
+//9.- comparaciones numericas
+let a = 10;
+let b = 5;
+console.log(a > b); //true
+console.log(a < b); //false
+console.log(a === 10);//true
+console.log(b === 3); //false
